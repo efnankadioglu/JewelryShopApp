@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5975D5DA2D75D84400942F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5975D5BB2D75D84300942F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5975D5C22D75D84300942F7B;
+			remoteInfo = takiSatis;
+		};
+		5975D5E42D75D84400942F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5975D5BB2D75D84300942F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5975D5C22D75D84300942F7B;
+			remoteInfo = takiSatis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5975D5C32D75D84300942F7B /* takiSatis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takiSatis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5975D5D92D75D84400942F7B /* takiSatisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takiSatisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5975D5E32D75D84400942F7B /* takiSatisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takiSatisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5975D5EB2D75D84400942F7B /* Exceptions for "takiSatis" folder in "takiSatis" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5975D5C22D75D84300942F7B /* takiSatis */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5975D5C52D75D84300942F7B /* takiSatis */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5975D5EB2D75D84400942F7B /* Exceptions for "takiSatis" folder in "takiSatis" target */,
+			);
+			path = takiSatis;
+			sourceTree = "<group>";
+		};
+		5975D5DC2D75D84400942F7B /* takiSatisTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = takiSatisTests;
+			sourceTree = "<group>";
+		};
+		5975D5E62D75D84400942F7B /* takiSatisUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = takiSatisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5975D5C02D75D84300942F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975D5D62D75D84400942F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975D5E02D75D84400942F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5975D5BA2D75D84300942F7B = {
+			isa = PBXGroup;
+			children = (
+				5975D5C52D75D84300942F7B /* takiSatis */,
+				5975D5DC2D75D84400942F7B /* takiSatisTests */,
+				5975D5E62D75D84400942F7B /* takiSatisUITests */,
+				5975D5C42D75D84300942F7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5975D5C42D75D84300942F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5975D5C32D75D84300942F7B /* takiSatis.app */,
+				5975D5D92D75D84400942F7B /* takiSatisTests.xctest */,
+				5975D5E32D75D84400942F7B /* takiSatisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5975D5C22D75D84300942F7B /* takiSatis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5975D5EC2D75D84400942F7B /* Build configuration list for PBXNativeTarget "takiSatis" */;
+			buildPhases = (
+				5975D5BF2D75D84300942F7B /* Sources */,
+				5975D5C02D75D84300942F7B /* Frameworks */,
+				5975D5C12D75D84300942F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5975D5C52D75D84300942F7B /* takiSatis */,
+			);
+			name = takiSatis;
+			packageProductDependencies = (
+			);
+			productName = takiSatis;
+			productReference = 5975D5C32D75D84300942F7B /* takiSatis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5975D5D82D75D84400942F7B /* takiSatisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5975D5F12D75D84400942F7B /* Build configuration list for PBXNativeTarget "takiSatisTests" */;
+			buildPhases = (
+				5975D5D52D75D84400942F7B /* Sources */,
+				5975D5D62D75D84400942F7B /* Frameworks */,
+				5975D5D72D75D84400942F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5975D5DB2D75D84400942F7B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5975D5DC2D75D84400942F7B /* takiSatisTests */,
+			);
+			name = takiSatisTests;
+			packageProductDependencies = (
+			);
+			productName = takiSatisTests;
+			productReference = 5975D5D92D75D84400942F7B /* takiSatisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5975D5E22D75D84400942F7B /* takiSatisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5975D5F42D75D84400942F7B /* Build configuration list for PBXNativeTarget "takiSatisUITests" */;
+			buildPhases = (
+				5975D5DF2D75D84400942F7B /* Sources */,
+				5975D5E02D75D84400942F7B /* Frameworks */,
+				5975D5E12D75D84400942F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5975D5E52D75D84400942F7B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5975D5E62D75D84400942F7B /* takiSatisUITests */,
+			);
+			name = takiSatisUITests;
+			packageProductDependencies = (
+			);
+			productName = takiSatisUITests;
+			productReference = 5975D5E32D75D84400942F7B /* takiSatisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5975D5BB2D75D84300942F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5975D5C22D75D84300942F7B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5975D5D82D75D84400942F7B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5975D5C22D75D84300942F7B;
+					};
+					5975D5E22D75D84400942F7B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5975D5C22D75D84300942F7B;
+					};
+				};
+			};
+			buildConfigurationList = 5975D5BE2D75D84300942F7B /* Build configuration list for PBXProject "takiSatis" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5975D5BA2D75D84300942F7B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5975D5C42D75D84300942F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5975D5C22D75D84300942F7B /* takiSatis */,
+				5975D5D82D75D84400942F7B /* takiSatisTests */,
+				5975D5E22D75D84400942F7B /* takiSatisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5975D5C12D75D84300942F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975D5D72D75D84400942F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975D5E12D75D84400942F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5975D5BF2D75D84300942F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975D5D52D75D84400942F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5975D5DF2D75D84400942F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5975D5DB2D75D84400942F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5975D5C22D75D84300942F7B /* takiSatis */;
+			targetProxy = 5975D5DA2D75D84400942F7B /* PBXContainerItemProxy */;
+		};
+		5975D5E52D75D84400942F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5975D5C22D75D84300942F7B /* takiSatis */;
+			targetProxy = 5975D5E42D75D84400942F7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5975D5ED2D75D84400942F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = takiSatis/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lunora;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = efnank.takiSatis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5975D5EE2D75D84400942F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = takiSatis/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lunora;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = efnank.takiSatis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5975D5EF2D75D84400942F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5975D5F02D75D84400942F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5975D5F22D75D84400942F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = efnank.takiSatisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takiSatis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/takiSatis";
+			};
+			name = Debug;
+		};
+		5975D5F32D75D84400942F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = efnank.takiSatisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takiSatis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/takiSatis";
+			};
+			name = Release;
+		};
+		5975D5F52D75D84400942F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = efnank.takiSatisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = takiSatis;
+			};
+			name = Debug;
+		};
+		5975D5F62D75D84400942F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = efnank.takiSatisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = takiSatis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5975D5BE2D75D84300942F7B /* Build configuration list for PBXProject "takiSatis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5975D5EF2D75D84400942F7B /* Debug */,
+				5975D5F02D75D84400942F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5975D5EC2D75D84400942F7B /* Build configuration list for PBXNativeTarget "takiSatis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5975D5ED2D75D84400942F7B /* Debug */,
+				5975D5EE2D75D84400942F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5975D5F12D75D84400942F7B /* Build configuration list for PBXNativeTarget "takiSatisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5975D5F22D75D84400942F7B /* Debug */,
+				5975D5F32D75D84400942F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5975D5F42D75D84400942F7B /* Build configuration list for PBXNativeTarget "takiSatisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5975D5F52D75D84400942F7B /* Debug */,
+				5975D5F62D75D84400942F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5975D5BB2D75D84300942F7B /* Project object */;
+}
