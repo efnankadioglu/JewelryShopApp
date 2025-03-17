@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="utg-Y3-vzW">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="takiSatis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lucky Necklace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQ1-DX-e6f">
+                                <rect key="frame" x="64.666666666666657" y="119" width="263.66666666666674" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kolyeResim" translatesAutoresizingMaskIntoConstraints="NO" id="ETq-9x-geW">
+                                <rect key="frame" x="68" y="170" width="261" height="438"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="438" id="eAO-1R-RR0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$23.98" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ug3-F1-hex">
+                                <rect key="frame" x="32" y="755.66666666666663" width="132" height="46"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXk-Ea-rYR">
+                                <rect key="frame" x="203" y="760.66666666666663" width="165.66666666666663" height="36"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="zio-ub-43e"/>
+                                </constraints>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO CHART">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="mIH-N3-7mu">
+                                <rect key="frame" x="56" y="638" width="281" height="31"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vy-go-j50">
+                                        <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="31"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Letter">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvl-k5-Fan">
+                                        <rect key="frame" x="98.666666666666657" y="0.0" width="83.666666666666657" height="31"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Heart">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfy-Lq-ttt">
+                                        <rect key="frame" x="197.33333333333334" y="0.0" width="83.666666666666657" height="31"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Elephant">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can select the charms you want to add" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgo-P4-Ngd">
+                                <rect key="frame" x="24" y="691.66666666666663" width="345" height="21.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21.666666666666686" id="JhQ-Vg-aA8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ug3-F1-hex" firstAttribute="top" secondItem="Tgo-P4-Ngd" secondAttribute="bottom" constant="42.333333333333258" id="0WT-60-xKa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bQ1-DX-e6f" secondAttribute="trailing" constant="64.670000000000002" id="4Ap-u0-Ojq"/>
+                            <constraint firstItem="ETq-9x-geW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="170" id="Abs-g8-rDN"/>
+                            <constraint firstItem="bQ1-DX-e6f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64.670000000000002" id="BOw-cd-zTh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ug3-F1-hex" secondAttribute="bottom" constant="16.333333333333371" id="FOj-Cy-caE"/>
+                            <constraint firstItem="Ug3-F1-hex" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="Fxk-1Z-Air"/>
+                            <constraint firstItem="mIH-N3-7mu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="H5S-6H-RUD"/>
+                            <constraint firstItem="bQ1-DX-e6f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K7t-nG-UxB"/>
+                            <constraint firstItem="Ug3-F1-hex" firstAttribute="centerY" secondItem="xXk-Ea-rYR" secondAttribute="centerY" id="OdE-ik-28R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ug3-F1-hex" secondAttribute="bottom" constant="16.329999999999998" id="Tk8-ag-7wa"/>
+                            <constraint firstItem="Ug3-F1-hex" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="Yav-f6-MKn"/>
+                            <constraint firstItem="Tgo-P4-Ngd" firstAttribute="top" secondItem="mIH-N3-7mu" secondAttribute="bottom" constant="22.666666666666629" id="a0N-HQ-FH2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ETq-9x-geW" secondAttribute="trailing" constant="64" id="aa7-0d-Y3D"/>
+                            <constraint firstItem="Tgo-P4-Ngd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="cNu-fN-kDU"/>
+                            <constraint firstItem="mIH-N3-7mu" firstAttribute="centerX" secondItem="bQ1-DX-e6f" secondAttribute="centerX" id="cvo-1G-4kk"/>
+                            <constraint firstItem="ETq-9x-geW" firstAttribute="top" secondItem="bQ1-DX-e6f" secondAttribute="bottom" constant="8" symbolic="YES" id="j2r-Rg-9VZ"/>
+                            <constraint firstItem="xXk-Ea-rYR" firstAttribute="top" secondItem="Tgo-P4-Ngd" secondAttribute="bottom" constant="47.333333333333258" id="jh8-md-8T2"/>
+                            <constraint firstItem="mIH-N3-7mu" firstAttribute="centerX" secondItem="Tgo-P4-Ngd" secondAttribute="centerX" id="o41-fZ-P5s"/>
+                            <constraint firstItem="xXk-Ea-rYR" firstAttribute="leading" secondItem="Ug3-F1-hex" secondAttribute="trailing" constant="39" id="pb1-oW-A4z"/>
+                            <constraint firstItem="xXk-Ea-rYR" firstAttribute="centerY" secondItem="Ug3-F1-hex" secondAttribute="centerY" id="pl0-Ol-fRN"/>
+                            <constraint firstItem="ETq-9x-geW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="tST-Fg-c5k"/>
+                            <constraint firstItem="mIH-N3-7mu" firstAttribute="top" secondItem="ETq-9x-geW" secondAttribute="bottom" constant="30" id="vdF-fA-YrY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xst-h3-meY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HP3-sM-wnz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="utg-Y3-vzW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tnD-QS-r2O">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rmb-gQ-ami"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1au-Ej-Gba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kolyeResim" width="124" height="219.33332824707031"/>
+        <namedColor name="anaRenk">
+            <color red="1" green="0.41176470588235292" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.3880000114440918" green="0.3880000114440918" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
